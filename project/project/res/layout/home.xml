@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images" >
+
+	<AbsoluteLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="-1dp"
+	        android:layout_y="20dp"
+	        android:gravity="center"
+	        android:text="@string/hello"
+	        android:textColor="#FF0000"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="1dp"
+	        android:layout_y="46dp"
+	        android:gravity="center"
+	        android:text="@string/welcome"
+	        android:textColor="#FF0000"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    <DigitalClock
+	        android:id="@+id/digitalClock1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="48dp"
+	        android:layout_x="2dp"
+	        android:layout_y="67dp"
+	        android:gravity="center"
+	        android:text="DigitalClock"
+	        android:textColor="#00ee00"
+	        android:textSize="40sp"
+	        android:textStyle="bold" />
+	    <Button
+	        android:id="@+id/explant"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="100dp"
+	        android:layout_y="115dp"
+	        android:background="@drawable/buttonq"
+	        android:gravity="center"
+	        android:text="說  明"
+	        android:textColor="#0033FF"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    <Button
+	        android:id="@+id/start"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="100dp"
+	        android:layout_y="175dp"
+	        android:background="@drawable/buttonq"
+	        android:gravity="center"
+	        android:text="開  始"
+	        android:textColor="#0033FF"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	    <Button
+	        android:id="@+id/exit"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="100dp"
+	        android:layout_y="235dp"
+	        android:background="@drawable/buttonq"
+	        android:gravity="center"
+	        android:text="結  束"
+	        android:textColor="#0033FF"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+	</AbsoluteLayout>
+  
+</FrameLayout> 

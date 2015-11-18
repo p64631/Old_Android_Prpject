@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Where am I ? </string>
+	<string name="hello1">Where I go ! </string>
+	<string name="home">請選擇其中一個樓層</string>
+	<string name="home2">如果不知道自己所在位置，任選一個即可</string>
+	<string name="explant">    由手機感應行走的方向與加速度，在畫面上顯示目前所在的位置與路徑，不知道方位時可以使用手機QRcode功能，藉由條碼來幫助定位。</string>
+	<string name="explant1">操作說明 :</string>
+	<string name="explant2">1.開啟程式之後點選開始按鈕</string>
+	<string name="explant3">2.選擇所在樓層</string>
+	<string name="explant4">3.點選手機的MENU開啟功能列表</string>
+	<string name="explant5">4.按下start選擇自己的位置</string>
+	<string name="explant6">5.也可以由QRcode掃描自動定位</string>
+	<string name="explant7">6.開始行走，程式會記錄你的路徑</string>
+	<string name="explant8">上下樓梯時須掃描QRcode做切換</string>
+	
+    <string name="app_name">PA_PA GO ~</string>	    
+</resources>

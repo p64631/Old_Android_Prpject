@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images" >
+
+	<AbsoluteLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+	    <DigitalClock
+	        android:id="@+id/digitalClock1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="65dp"
+	        android:layout_x="0dp"
+	        android:layout_y="365dp"
+	        android:gravity="center"
+	        android:text="DigitalClock"
+	        android:textColor="#33ffff"
+	        android:textSize="50sp"
+	        android:textStyle="bold" />
+
+	    <Button
+	        android:id="@+id/explant"
+	        android:layout_width="200dp"
+	        android:layout_height="55dp"
+	        android:layout_x="120dp"
+	        android:layout_y="136dp"
+	        android:background="@drawable/start"
+	        android:gravity="center"
+	        android:text="說   明"
+	        android:textColor="#ffffff"
+	        android:textSize="35sp"
+	        android:textStyle="bold" />
+
+	    <Button
+	        android:id="@+id/exit"
+	        android:layout_width="200dp"
+	        android:layout_height="55dp"
+	        android:layout_x="0dp"
+	        android:layout_y="298dp"
+	        android:background="@drawable/start"
+	        android:gravity="center"
+	        android:text="結   束"
+	        android:textColor="#ffffff"
+	        android:textSize="35sp"
+	        android:textStyle="bold" />
+
+	    <Button
+	        android:id="@+id/start"
+	        android:layout_width="200dp"
+	        android:layout_height="55dp"
+	        android:layout_x="52dp"
+	        android:layout_y="212dp"
+	        android:background="@drawable/start"
+	        android:gravity="center"
+	        android:text="開    始"
+	        android:textColor="#ffffff"
+	        android:textSize="35sp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:layout_width="302dp"
+	        android:layout_height="wrap_content"
+	        android:layout_x="-12dp"
+	        android:layout_y="2dp"
+	        android:gravity="center"
+	        android:text="@string/hello"
+	        android:textColor="#Ffff00"
+	        android:textSize="40sp"
+	        android:textStyle="bold" />
+
+	    <TextView
+	        android:layout_width="323dp"
+	        android:layout_height="wrap_content"
+	        android:layout_x="37dp"
+	        android:layout_y="61dp"
+	        android:gravity="center"
+	        android:text="@string/hello1"
+	        android:textColor="#FFff33"
+	        android:textSize="40sp"
+	        android:textStyle="bold" />
+
+	</AbsoluteLayout>
+  
+</FrameLayout> 

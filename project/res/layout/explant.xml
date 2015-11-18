@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/images2" >
+
+	<AbsoluteLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="40dp"
+	        android:layout_x="0dp"
+	        android:layout_y="18dp"
+	        android:ellipsize="marquee"
+	        android:focusable="true"
+	        android:focusableInTouchMode="true"
+	        android:marqueeRepeatLimit="marquee_forever"
+	        android:singleLine="true"
+	        android:text="@string/explant"
+	        android:textColor="#F0ff3c"
+	        android:textSize="35sp" />
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="64dp"
+	        android:gravity="center"
+	        android:text="@string/explant1"
+	        android:textColor="#ff99ff"
+	        android:textSize="30sp" />
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="105dp"
+	        android:text="@string/explant2"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="135dp"
+	        android:text="@string/explant3"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="165dp"
+	        android:text="@string/explant4"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="195dp"
+	        android:text="@string/explant5"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="225dp"
+	        android:text="@string/explant6"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+	    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="255dp"
+	        android:text="@string/explant7"
+	        android:textColor="#F0f0f0"
+	        android:textSize="20sp" />
+
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_x="0dp"
+	        android:layout_y="290dp"
+	        android:gravity="center"
+	        android:text="@string/explant8"
+	        android:textColor="#ffa500"
+	        android:textSize="20sp" />
+
+	    <Button
+	        android:id="@+id/back"
+	        android:layout_width="150dp"
+	        android:layout_height="60dp"
+	        android:layout_x="84dp"
+	        android:layout_y="376dp"
+	        android:background="@drawable/exit"
+	        android:gravity="center"
+	        android:text="返  回"
+	        android:textColor="#40ffff"
+	        android:textSize="20sp"
+	        android:textStyle="bold" />
+
+	</AbsoluteLayout>
+  
+</FrameLayout> 

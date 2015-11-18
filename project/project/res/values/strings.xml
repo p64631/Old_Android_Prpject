@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+	<string name="hello"> Hello ! !</string>
+	<string name="welcome"> Welcome to use this app !</string>
+	
+	<string name="explant">\n        透過程式顯示你在地圖上的位置，地圖上的箭頭會隨著你的移動，不斷更新你的位置。
+	   \n        你也可以自己在地圖上點選你的起始位置，如果你不知道你目前的所在位置，可以利用程式掃描QRcode的功能，重新抓取你的所在位置。</string>
+	    	       
+    <string name="app_name">ProjectApp</string>	    
+</resources>

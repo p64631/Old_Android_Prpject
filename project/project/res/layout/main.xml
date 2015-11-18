@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ground" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical" >
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"	        
+	         android:text="@string/hello" 
+	        />
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"	
+	        android:text="@string/welcome" 
+	        />
+	    	</LinearLayout>
+
+	<AbsoluteLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+	    <Button	       
+	        android:id="@+id/CSE1F"
+	        android:background="@drawable/buttonq"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="5dp"
+	        android:layout_y="410dp"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"
+	        android:text="CSE  1F" />
+	    <Button
+	        android:id="@+id/CSE3F"
+	        android:background="@drawable/buttonq"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="5dp"
+	        android:layout_y="240dp"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"
+	        android:text="CSE  3F" />
+	    <Button
+	        android:id="@+id/CSE2F"
+	        android:background="@drawable/buttonq"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="5dp"
+	        android:layout_y="320dp"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"
+	        android:text="CSE  2F" />
+	    <Button
+	        android:id="@+id/CSE4F"
+	        android:background="@drawable/buttonq"
+	        android:layout_width="110dp"
+	        android:layout_height="45dp"
+	        android:layout_x="5dp"
+	        android:layout_y="160dp"
+	        android:gravity="center"
+	        android:textStyle="bold"
+	        android:textColor="#FFFFFFFF"
+	        android:text="CSE  4F" />
+	</AbsoluteLayout>    
+</FrameLayout>
